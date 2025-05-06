@@ -1,0 +1,91 @@
+rohitanshisyoutuber/
+├── index.html
+├── tutorial.html
+├── style.css
+├── fonts/ (optional - for Minecraft font)<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RohitanshIsYoutuber</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="minecraft-font">Rohitansh</h1>
+    <div class="button-group">
+      <a href="https://youtube.com/@incrediblebaccha.yt1?si=zGNjf5B1nVWFX5Yn" target="_blank" class="btn">Subscribe</a>
+      <a href="tutorial.html" class="btn">Tutorial Video</a>
+    </div>
+  </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tutorial Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="minecraft-font">Sabar Karo</h1>
+    <p class="info">Update Karenge</p>
+    <a href="index.html" class="btn">Back to Home</a>
+  </div>
+</body>
+</html>body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: repeating-linear-gradient(
+    45deg,
+    black,
+    black 20px,
+    red 20px,
+    red 40px
+  );
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.minecraft-font {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #00aa00;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00ff00;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #007700;
+}
+
+.info {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
